@@ -1,0 +1,45 @@
+.principal_sobre_nosotros{
+   display: flex;
+   flex-direction: row;
+   gap: 360px;
+    justify-content: center;
+    align-items: center;
+    background: fixed url('https://img.freepik.com/fotos-premium/programadores-que-trabajan-oficina-empresa-desarrollo-software_522218-1217.jpg') no-repeat ;
+    background-size: cover;
+    color: #fff;
+    height: 1000px;
+}
+.mision_vision{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.mision{
+    width: 500px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.vision{
+    width: 500px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    
+}
+.circulo_logo{
+    /* width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    background-color: #fff;
+    border-radius: 50%; */
+    width: 350px;
+    height: 350px;
+    
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}

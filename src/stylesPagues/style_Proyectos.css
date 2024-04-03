@@ -1,0 +1,25 @@
+.Principal_proyectos{
+    width: 100vw;
+    height: 1000px;
+    /* background-color:  #F7FAFF; */
+    background: fixed url(https://www.itrends.com.mx/wp-content/uploads/2023/07/desarrollo-de-software-in-house.jpg) no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+ .minicart__box{
+    position: relative;
+    top: 10%;
+} 
+.minicar_cg{
+    width: 500px;
+}
+
+
+.info__sitio{
+    width: 627px;
+}
+.title_proyec{
+    text-align: center;
+    padding-bottom: 220px;
+}

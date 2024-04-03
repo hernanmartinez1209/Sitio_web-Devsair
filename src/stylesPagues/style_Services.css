@@ -1,0 +1,16 @@
+.Principal_Services{
+  width: 100%;
+    height: 1000px;
+   padding-top: 110px;
+   color: #fff;
+   /* background: linear-gradient(to top,transparent,#0009); */
+   background:no-repeat url("https://i.pinimg.com/originals/26/3e/02/263e02e428c2e7d838996346bdb5e772.gif")fixed;
+   background-size: cover;
+   
+  }
+.title_services{
+  text-align: center;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+  

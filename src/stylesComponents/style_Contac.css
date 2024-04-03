@@ -1,0 +1,41 @@
+.form__Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5px;
+    color: #ededed;
+    
+}
+.P_contac{
+    background:linear-gradient(#242426,#ededed);
+    clip-path: polygon(50% 0%, 73% 4%, 100% 0, 100% 70%, 100% 100%, 66% 100%, 19% 100%, 0 100%, 0 0, 19% 3%);
+}
+.title_Contac{
+    padding-top: 100px;
+    text-align: center;
+    color: #ededed;
+}
+#email,
+#name,
+#mensaje{
+    width: 900px;
+    border-radius: 5px;
+    place-content: center;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);;
+}
+#email,
+#name{
+    height: 30px;
+}
+.btn_from{
+    height: 40px;
+    width: 900px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+label{
+    color: #ededed;
+}
