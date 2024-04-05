@@ -1,3 +1,8 @@
+.title_new_card{
+    position: absolute;
+    z-index: 1000;
+    bottom: -10;
+}
 .principal_new_carts{
     background: url("https://tecno-simple.com/wp-content/uploads/2021/04/Que-es-un-parche.jpg") fixed;
     background-size: cover;

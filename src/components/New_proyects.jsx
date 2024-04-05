@@ -2,8 +2,10 @@ import React from "react";
 
 const New_proyects = () => {
   return (
-    <div className="principal_new_carts">
-      <div className="new_cart_principal">
+    
+    <div className="grid_container">
+    
+      <div className="new_cart_principal grid-item">
         <div className="imgs_cart-new1_2">
           <img
             className="imgs_cart"
@@ -23,7 +25,7 @@ const New_proyects = () => {
           </p>
         </div>
       </div>
-      <div className="new_cart_principal">
+      <div className="new_cart_principal grid-item">
         <div className="imgs_cart-new1_1">
           <img
             className="imgs_cart"
@@ -44,7 +46,7 @@ const New_proyects = () => {
           </p>
         </div>
       </div>
-      <div className="new_cart_principal">
+      <div className="new_cart_principal grid-item">
         <div className="imgs_cart-new">
           <img
             className="imgs_cart"
@@ -65,7 +67,7 @@ const New_proyects = () => {
           </p>
         </div>
       </div>
-      <div className="new_cart_principal">
+      <div className="new_cart_principal grid-item">
         <div className="imgs_cart-new1_3">
           <img
             className="imgs_cart"
@@ -83,7 +85,7 @@ const New_proyects = () => {
           </p>
         </div>
       </div>
-      <div className="new_cart_principal">
+      <div className="new_cart_principal grid-item">
         <div className="imgs_cart-new1_3">
           <img
             className="imgs_cart"
@@ -100,6 +102,9 @@ const New_proyects = () => {
               convertir los grados de Celsius a Fahrenheit.
           </p>
         </div>
+      </div>
+      <div className="grid-item">
+      <h2 className="title_new_card ">Algunos de Nuestros Proyectos</h2>
       </div>
     </div>
   );

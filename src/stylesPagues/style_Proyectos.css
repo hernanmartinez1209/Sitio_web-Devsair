@@ -1,13 +1,5 @@
-.Principal_proyectos{
-    width: 100vw;
-    height: 1000px;
-    /* background-color:  #F7FAFF; */
-    background: fixed url(https://www.itrends.com.mx/wp-content/uploads/2023/07/desarrollo-de-software-in-house.jpg) no-repeat;
-    background-size: cover;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-    color: #fff;
-}
- .minicart__box{
+
+ /* .minicart__box{
     position: relative;
     top: 10%;
 } 
@@ -22,4 +14,51 @@
 .title_proyec{
     text-align: center;
     padding-bottom: 220px;
+} */
+.grid_container {
+     background: url("https://tecno-simple.com/wp-content/uploads/2021/04/Que-es-un-parche.jpg") fixed;
+     background-size: cover;
+   
+    display: grid;
+    grid-template-rows: auto auto; /* Dos filas de altura automática */
+    grid-template-columns: repeat(5, 1fr); /* Cuatro columnas de igual ancho */
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+     /* Espacio entre las celdas */
+    /* Opcional: Ajusta el tamaño de la grid para que quepa en la pantalla */
+    width: 100%;
+    height: 1000px;
+    /* margin: 0 auto; */
+    padding: 20px;
+  }
+.title_new_card{
+    color: #edededed;
+    text-align: center;
 }
+  .grid-item{
+
+  }
+  .grid-item:nth-child(1) {
+    grid-row: 2; /* Establece la fila en la primera fila */
+    grid-column: 1; /* Establece la columna en la tercera columna */
+  }
+  .grid-item:nth-child(2) {
+    grid-row: 2; /* Establece la fila en la primera fila */
+    grid-column: 2; /* Establece la columna en la tercera columna */
+  }
+  .grid-item:nth-child(3) {
+    grid-row: 2; /* Establece la fila en la primera fila */
+    grid-column: 3; /* Establece la columna en la tercera columna */
+  }
+  .grid-item:nth-child(4) {
+    grid-row: 2; /* Establece la fila en la primera fila */
+    grid-column: 4; /* Establece la columna en la tercera columna */
+  }
+  .grid-item:nth-child(5) {
+    grid-row: 2; /* Establece la fila en la primera fila */
+    grid-column: 5; /* Establece la columna en la tercera columna */
+  } .grid-item:nth-child(6) {
+    grid-row: 1; /* Establece la fila en la primera fila */
+    grid-column: 2/4; /* Establece la columna en la tercera columna */
+  }
